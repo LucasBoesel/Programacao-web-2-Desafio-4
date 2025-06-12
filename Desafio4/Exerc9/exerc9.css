@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(135deg, #1E2A38 0%, #141E30 100%);
+    color: #F0F4FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+    background-color: rgba(39, 56, 76, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+h1.titulo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #A084CA;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #384C63;
+    background-color: #1E2A38;
+    color: #F0F4FF;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #A084CA;
+    color: #1E2A38;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #8659B2;
+}
+
+.voltar {
+    background-color: #E67E22;
+    color: #fff;
+}
+
+.voltar:hover {
+    background-color: #D46B1E;
+}
+
+.resultado {
+    background-color: #1E2A38;
+    padding: 20px;
+    border-left: 5px solid #A084CA;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.resultado h2 {
+    color: #A084CA;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.resultado p {
+    margin: 8px 0;
+    font-size: 1.1rem;
+}
+
+strong {
+    color: #27ae60;
+}

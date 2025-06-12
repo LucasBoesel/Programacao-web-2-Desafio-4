@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(135deg, #1E2A38 0%, #141E30 100%);
+    color: #F0F4FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    max-width: 900px;
+    width: 100%;
+}
+
+form {
+    background-color: rgba(39, 56, 76, 0.95);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    flex: 1;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #A084CA;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #384C63;
+    background-color: #1E2A38;
+    color: #F0F4FF;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #A084CA;
+    color: #1E2A38;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #8659B2;
+}
+
+.voltar {
+    background-color: #E67E22; /* laranja */
+    color: #fff;
+}
+
+.voltar:hover {
+    background-color: #D46B1E;
+}
+
+.resultado-container {
+    background-color: rgba(39, 56, 76, 0.95);
+    border: 2px solid #A084CA;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    flex: 1;
+    color: #F0F4FF;
+    min-width: 300px;
+}
+
+.status-aprovado {
+    color: #27ae60; /* verde */
+}
+
+.status-recuperacao {
+    color: #e67e22; /* laranja */
+}
+
+.status-reprovado {
+    color: #e74c3c; /* vermelho */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #384C63;
+    margin-bottom: 8px;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+strong {
+    color: #27ae60;
+}
+

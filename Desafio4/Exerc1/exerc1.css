@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1E2A38 0%, #141E30 100%);
+    color: #F0F4FF;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: flex-start; /* alinha no topo */
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 40px; /* espaço entre formulário e resultado */
+    max-width: 900px;
+    width: 100%;
+}
+
+form {
+    background-color: rgba(39, 56, 76, 0.95);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    flex: 1; /* ocupa metade do container */
+    color: #F0F4FF;
+}
+
+.resultado-container {
+    background-color: rgba(39, 56, 76, 0.95);
+    border: 2px solid #A084CA;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    flex: 1; /* ocupa metade do container */
+    text-align: left;
+    min-width: 300px;
+    color: #F0F4FF;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: left;
+    color: #F0F4FF;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #384C63;
+    border-radius: 8px;
+    background-color: #253447;
+    color: #F0F4FF;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #A084CA;
+    outline: none;
+}
+
+.voltar {
+    padding: 12px 25px;
+    background-color: #f39c12;
+    color: #1E2A38;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+.voltar:hover {
+    background-color: #e67e22;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.botoes button {
+    margin: 0;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #A084CA;
+    color: #1E2A38;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+button:hover {
+    background-color: #8659B2;
+    transform: translateY(-3px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #384C63;
+    margin-bottom: 12px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #F0F4FF;
+    box-shadow: inset 0 0 8px rgba(160,132,202,0.2);
+}
+
+strong {
+    color: #D8BFD8;
+    font-size: 1.2em;
+}
